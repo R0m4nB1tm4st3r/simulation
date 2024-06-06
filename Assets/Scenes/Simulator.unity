@@ -385,8 +385,8 @@ MonoBehaviour:
   randomOffsetX: 1.5
   randomOffsetZ: 1.5
   grassHeightDeviation: 0.8
-  grassScaleFactor: 8
-  grassVastness: 0.7
+  grassScaleFactor: 3
+  grassVastness: 0.54
 --- !u!1 &379896406
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +516,7 @@ PrefabInstance:
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.464
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
@@ -526,12 +526,12 @@ PrefabInstance:
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.11138964
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.32721773
       objectReference: {fileID: 0}
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
@@ -541,12 +541,12 @@ PrefabInstance:
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.94494903
       objectReference: {fileID: 0}
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
@@ -556,7 +556,7 @@ PrefabInstance:
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 218.2
       objectReference: {fileID: 0}
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}

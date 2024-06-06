@@ -66,9 +66,10 @@ Material:
     - WindStrength: 0.15
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RotationDegree: 0
     m_Colors:
     - BaseColor: {r: 0.23392068, g: 0.7830189, b: 0.24459156, a: 1}
-    - WindDirection: {r: 1, g: 0, b: 0, a: 0}
+    - WindDirection: {r: 0, g: 1, b: 0, a: 0}
     - _Base_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Normal_Offset_Test: {r: 0, g: 0, b: 0, a: 0}
     - _Tangent_Offset_Test: {r: 0, g: 0, b: 0, a: 0}
