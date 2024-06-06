@@ -11,9 +11,6 @@
         },
         {
             "m_Id": "7b2c4714c4524b0ca18a6a1cf7c67a80"
-        },
-        {
-            "m_Id": "6eb033a6b1a741a6bbe5bbab4abb8c01"
         }
     ],
     "m_Keywords": [],
@@ -2713,34 +2710,6 @@
 }
 
 {
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
-    "m_ObjectId": "6eb033a6b1a741a6bbe5bbab4abb8c01",
-    "m_Guid": {
-        "m_GuidSerialized": "59ebd4e4-2161-4779-95f6-8c70a6cddee6"
-    },
-    "m_Name": "RotationDegree",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "RotationDegree",
-    "m_DefaultReferenceName": "_RotationDegree",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": 0.0,
-    "m_FloatType": 1,
-    "m_RangeValues": {
-        "x": 0.0,
-        "y": 359.0
-    }
-}
-
-{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "7097d88fc116419f84f70fd69da84093",
@@ -3472,9 +3441,6 @@
         },
         {
             "m_Id": "7b2c4714c4524b0ca18a6a1cf7c67a80"
-        },
-        {
-            "m_Id": "6eb033a6b1a741a6bbe5bbab4abb8c01"
         }
     ]
 }

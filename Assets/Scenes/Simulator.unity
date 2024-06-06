@@ -381,12 +381,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grassPrefab: {fileID: 8630360836642088832, guid: 20e5acf0753a41241a1133fb5b46b121,
     type: 3}
-  grassPlaneSize: 20
-  randomOffsetX: 1.5
-  randomOffsetZ: 1.5
+  grassPlaneSize: 15
+  randomOffsetX: 2
+  randomOffsetZ: 2
   grassHeightDeviation: 0.8
-  grassScaleFactor: 3
-  grassVastness: 0.54
+  grassScaleFactor: 1
+  grassVastness: 0.2
+  windProperties: {fileID: 0}
 --- !u!1 &379896406
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +506,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1509169034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1509169035}
+  - component: {fileID: 1509169036}
+  m_Layer: 0
+  m_Name: Wind Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1509169035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509169034}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1833365, y: 0.3995887, z: 0.246665}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1509169036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509169034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c45a53db3a4f1b34aa9dd75265959ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windDirectionX: -1
+  windDirectionZ: 1
+  windStrength: 0.2
 --- !u!1001 &9063227207762533785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -531,7 +579,7 @@ PrefabInstance:
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32721773
+      value: -0.89917624
       objectReference: {fileID: 0}
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
@@ -541,7 +589,7 @@ PrefabInstance:
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.94494903
+      value: 0.43758675
       objectReference: {fileID: 0}
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
@@ -556,7 +604,7 @@ PrefabInstance:
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 218.2
+      value: 308.1
       objectReference: {fileID: 0}
     - target: {fileID: 5374225104316736028, guid: 20e5acf0753a41241a1133fb5b46b121,
         type: 3}
@@ -579,5 +627,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 53655620}
   - {fileID: 379896409}
+  - {fileID: 1509169035}
   - {fileID: 251185504}
   - {fileID: 9063227207762533785}
