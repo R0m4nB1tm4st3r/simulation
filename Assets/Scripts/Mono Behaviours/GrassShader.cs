@@ -24,7 +24,7 @@ namespace Mono_Behaviours
             shaderMaterial.SetFloat(WindStrengthId, newStrength);
         }
 
-        public override void Awake()
+        protected override void Awake()
         {
             base.Awake();
             

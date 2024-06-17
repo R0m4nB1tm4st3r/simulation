@@ -11,7 +11,7 @@ namespace Mono_Behaviours
         protected MeshRenderer meshRenderer = null;
         protected Material shaderMaterial = null;
 
-        public virtual void Awake()
+        protected virtual void Awake()
         {
             meshRenderer = GetComponent<MeshRenderer>();
             shaderMaterial = meshRenderer.material;
